@@ -1,0 +1,9 @@
+Para la parte de abstracr factory lo que decidi hacer fue lo siguiente, plantee un problema para una fabrica de carros
+el cual recibe dos tipos de carros diferentes, uno el cual es un automovil comun y corriente y el otro es un
+vehiculo convertible, ambos son carros pero cuentan con ciertas diferenecias, tales como la variacion del peso entre
+ambos carros como el numero de puertas que tiene cada carro, para este ejercicio se planteo a un automovil con 4 puertas
+y a un convertible con tan solo 2, el automovil es mas pesado y tambien tiene mas altura, por lo cual se crearon dos sub
+fabricas diferentes una la cual se encarga de la produccion del automovil y la otra la cual se encarga de la produccion
+del convertible, ya al final en la clase Principal se invocan ambas clases, y se piden las diferencias entre ambos
+siendo el resultado el valor puesto por nosotros en el cual el automovil tiene las mismas variables, pero con diferentes
+caracterisitcas o valores.

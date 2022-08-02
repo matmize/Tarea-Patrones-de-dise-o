@@ -1,0 +1,10 @@
+Para el patron de diseño de Proxy Pattern el problema planteado fue el de ejecutar comandos en una consola
+el problema que se planteo fue el siguiente : Si tenemos una clase la cual permite correr comandos, y esta aplicacion se la
+vamos a brindar a un cliente, no queremos que por ejemplo pueda eliminar ciertas caracteristicas de la aplicacion
+ya sea por error o por que decidio hacerlo, por lo tanto al usar el diseño de Proxy Pattern se puede generar
+un bloqueo de acceso a ciertos comandos, en el cual, solo ciertas personas que nosotros como programadores,
+determinemos puedan correr cierto comando, por ejemplo si un usuario no administrador intenta corre un comando tal como
+-rm dir ... no va a poder eliminar el directorio ya que no lo tiene permitido, mientras que si un administrador,
+por cualquier cosa necesita eliminar una carpeta o directorio, para optimizar algun proceso, o por que el directorio
+esta presentando falla, o solamente no lo necesita mas va a poder hacerlo sin ningun problema, gracias al patron de diseño
+de Proxy Pattern
